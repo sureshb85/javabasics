@@ -1,5 +1,7 @@
 package javabasics;
 
+import java.util.Scanner;
+
 /* The statements inside the source files are generally executed from top to bottom, 
  * in the order they appear. Control flow statements, however, 
  * to break up the flow of execution by employing decision making, looping, and branching, 
@@ -26,7 +28,6 @@ public class ControlFlow {
 		// Using Strings in switch Statements
 		// case "january":
 		// case "february":
-		
 		int month = 8;
 		String monthString;
 		switch (month) {
